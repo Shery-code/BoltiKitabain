@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Tahu";
+  src: local("Tahu"), url("./assets/fonts/Tahu.ttf") format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Hk";
+  src: local("Hk"),
+    url("./assets/fonts/hk-grotesk/HKGrotesk-Medium.otf") format("truetype");
+  font-weight: bold;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
